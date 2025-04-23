@@ -10,6 +10,8 @@ from fuzzywuzzy import process
 import skfuzzy as fuzz
 import subprocess
 
+pd.read_csv("tmdb_movies_data.csv")
+
 warnings.filterwarnings("ignore")
 
 ### === AUTOMATED TMDB DATASET SETUP === ###
